@@ -1,0 +1,21 @@
+body {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.btn {
+  padding: 15px 30px;
+  align-items: center;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #e07dce, #ff95f5);
+  box-shadow: 20px 20px 60px #d476c3, -20px -20px 60px #ffa0ff;
+}
+.btn:hover {
+  color: white;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #7d296d, #953081);
+  box-shadow: 20px 20px 60px #762667, -20px -20px 60px #a0348b;
+}
